@@ -1,9 +1,9 @@
 pipeline {
-    agent any
-    tools {
-        jdk 'Java17'
-        maven 'Maven 3'
-    }
+    agent any //{ label 'Jenkins-Agent' }
+    // tools {
+    //     jdk 'Java17'
+    //     maven 'Maven 3'
+    // }
     // environment {
 	   //  APP_NAME = "register-app-pipeline"
     //         RELEASE = "1.0.0"
@@ -112,4 +112,4 @@ pipeline {
                      mimeType: 'text/html',to: "ramkhadke23@gmail.com"
       }      
    }
-}
+// }
