@@ -112,4 +112,5 @@ pipeline {
                      mimeType: 'text/html',to: "ramkhadke23@gmail.com"
       }      
    }
-// }
+}
+}
